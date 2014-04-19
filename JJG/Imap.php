@@ -198,7 +198,6 @@ class Imap {
       }
 
       // Build the message.
-      dd($details);
       $message = array(
         'raw_header' => $raw_header,
         'to' => $details->toaddress,
